@@ -9,7 +9,7 @@ app = express();
 
 
 //APP CONFIG
-mongoose.connect("mongodb+srv://jayant:jayant@blogapp.kkwoecx.mongodb.net/?retryWrites=true&w=majority", { useNewUrlParser: true })
+mongoose.connect("mongodb+srv://Aakashsoni:Aakashsoni1234@cluster0.ro4xfc3.mongodb.net/blogapp", { useNewUrlParser: true })
 .then(() => console.log("DB working!"))
 .catch((error) => console.log(error));;
 app.set("view engine", "ejs");
